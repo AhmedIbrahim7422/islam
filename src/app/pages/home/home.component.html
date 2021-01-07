@@ -1,0 +1,27 @@
+<section class="row">
+<div class="col-4 ">
+
+    <h2 style="text-align: center;">القران الكريم</h2>
+    <div>
+      <img src={{basmalla}}>
+      <p>الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ ﴿2﴾ الرَّحْمَٰنِ الرَّحِيمِ ﴿3﴾ مَالِكِ يَوْمِ الدِّينِ ﴿4﴾ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ ﴿5﴾ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ ﴿6﴾ صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ ﴿7﴾</p>
+    </div>
+</div>
+<div class="col-4">
+  <a [routerLink]="['/landing/احاديث']">
+  <H2 style="text-align: center;">الآحاديث النبوية</H2></a>
+  <p>قال رسول الله صلى الله عليه وسلم:
+  <p>  (إِذَا مَاتَ الإنْسَانُ انْقَطَعَ عنْه عَمَلُهُ إِلَّا مِن ثَلَاثَةٍ: إِلَّا مِن صَدَقَةٍ جَارِيَةٍ، أَوْ عِلْمٍ يُنْتَفَعُ بِهِ، أَوْ وَلَدٍ صَالِحٍ يَدْعُو له).</p>
+</div>
+<div class='gh col-3' >
+  <a [routerLink]="['/landing/غزوات']">
+  <h2 style="text-align: center;">غزوات النبي</h2></a>
+  <div style="text-align: right;" class=""  *ngFor=" let item of g">
+  <P >{{item.id}} - {{item.name}}&nbsp;&nbsp; <span style="color: rgb(15, 15, 179);">{{item.when}}ھ </span></P>
+
+</div>
+</div>
+<h1 >
+  &nbsp;&nbsp;&nbsp;&nbsp; stile under develop
+</h1>
+</section>

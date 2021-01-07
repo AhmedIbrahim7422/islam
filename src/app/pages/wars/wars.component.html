@@ -1,0 +1,26 @@
+<div class="raw">
+<div class="cont" *ngFor="let item of g" >
+
+    <p class="center" style="text-align: center;">
+    {{item.name}}
+    </p>
+    <p class="right">
+      التاريخ : {{item.when}} <span style="color: rgb(15, 15, 179);"> ھ </span>
+    </p>
+    <p class="right">
+      المكان : {{item.where}}
+    </p>
+    <p class="right">
+      عدد المسلمين : {{item.manyM}}
+    </p>
+    <p class="right">
+      عدد المشركين : {{item.manyO}}
+    </p>
+    <p class="right">
+       اسباب الغزوة : {{item.info}}
+    </p>
+    <p class="right">
+       النتائج : {{item.res}}
+   </p>
+  </div>
+</div>

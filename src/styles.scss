@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/scss/bootstrap';
+body{
+  direction: rtl ;
+}
+
+.col-2{
+  border-style: groove !important;
+  margin: 1px;
+  border: auto blue;
+  color: #3e1212;
+}
