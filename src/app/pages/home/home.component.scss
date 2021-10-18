@@ -20,11 +20,8 @@
 }
 
 .sect{
-
-  border-radius: 10%;
   margin-top: 36px;
   text-align: right;
-  box-shadow: 0 .5rem 1rem rgba(59, 54, 54, 0.25)!important;
   margin-left: auto;
   margin-right: auto;
   padding: 30px 60px;
@@ -54,16 +51,9 @@
   }
 }
 @media screen and (max-width:770px){
-.sect{
-  width: 45% !important;
-}
-.fathia{
-  width: 80% !important;
-}
-}
-@media screen and (max-width:770px){
+
   .sect{
-    width: 85% !important;
+    width: 100% ;
   }
 }
 @media screen and (max-width:650px){
