@@ -1,0 +1,53 @@
+<nav class=" navbar navbar-expand navbar-light bg-light">
+  <div class="dropdown">
+  <button (click)="myFunction()" class="dropbtn">القائمة</button>
+  <div id="myDropdown" class="dropdown-content">
+    <div class="navbar" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">الصفحة الرئيسة <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/landing/قران']">القران الكريم</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"[routerLink]="['/landing/احاديث']">الاحاديث النبوية</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/landing/غزوات']">غزوات الرسول</a>
+        </li>      <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/landing/الصحابة']"> الصحابة</a>
+        </li>      <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/landing/شخصيات_اسلامية']">شخصيات اسلامية</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+  <a class="navbar-brand" href="#">الاسلام</a>
+  <div class="non">
+  <div class="navbar" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">الصفحة الرئيسة <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/landing/قران']">القران الكريم</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"[routerLink]="['/landing/احاديث']">الاحاديث النبوية</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/landing/غزوات']">غزوات الرسول</a>
+      </li>      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/landing/الصحابة']"> الصحابة</a>
+      </li>      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/landing/شخصيات_اسلامية']">شخصيات اسلامية</a>
+      </li>
+    </ul>
+  </div></div>
+</nav>
+
+<div>
+  <router-outlet></router-outlet>
+  </div>

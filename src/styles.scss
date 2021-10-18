@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/scss/bootstrap';
+body{
+  direction: rtl ;
+}
+.main{
+  border-radius: 60px;
+  margin-top: 16px;
+  width: 43%;
+  margin: 20px 3%;
+  box-shadow: 0 .5rem 1rem rgba(59, 54, 54, 0.25)!important;
+  padding: 25px;
+}
+
+@media screen and (max-width:700px){
+.col-4,.cont, .main, .gh{
+  width: 100% !important;
+}
+}
+
+

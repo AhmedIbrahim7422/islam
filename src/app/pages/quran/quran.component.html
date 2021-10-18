@@ -1,0 +1,9 @@
+<div class="s">
+  <div class="main" *ngFor="let item of soura">
+    <p class="title">
+      <a [routerLink]="['/landing/سورة/']"[queryParams]="{id: item.id}">
+        {{item.name}}
+      </a>
+    </p>
+  </div>
+</div>

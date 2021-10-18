@@ -1,0 +1,27 @@
+@import url(//db.onlinewebfonts.com/c/2c1ce06a505728976c1d2993407312b5?family=KFGQPC+Uthmanic+Script+HAFS);
+
+.s{
+  font-family: "KFGQPC Uthmanic Script HAFS";
+  display: flex ;
+  flex-wrap: wrap ;
+  margin: 22px auto;
+}
+.main{
+  width: 240px !important;
+  
+}
+.title{
+  padding: 7px 0 0 ;
+  text-align: center;
+  font-size: 30px;
+
+}
+.title > a{
+  color: rgb(2,5, 60);
+
+}
+@media screen and (max-width:900px){
+.main{
+  margin: 20px auto !important;
+}
+}

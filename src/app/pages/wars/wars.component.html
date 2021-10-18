@@ -1,0 +1,32 @@
+<div class="raw">
+  <div class="cont main" *ngFor="let item of g" >
+    
+    <p class="center" style="text-align: center;">
+    {{item.name}}
+    </p>
+    <p class="right">
+      <span class="title">التاريخ : </span> <br>
+      {{item.when}} <span > ھ </span>
+    </p>
+    <p class="right">
+      <span class="title">المكان : </span> <br>
+      {{item.where}}
+    </p>
+    <p class="right">
+      <span class="title">  عدد المسلمين : </span> <br>
+        {{item.manyM}}
+    </p>
+    <p class="right">
+      <span class="title">عدد المشركين : </span> <br>
+       {{item.manyO}}
+    </p>
+    <p class="right">
+      <span class="title">اسباب الغزوة :</span> <br>
+        {{item.info}}
+    </p>
+    <p class="right">
+      <span class="title"> النتائج : </span> <br>
+      {{item.res}}
+   </p>
+   </div>
+</div>

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap');
+.cont{
+  font-family: 'Tajawal', sans-serif;
+
+ 
+}
+.right{
+  text-align: right;
+  margin: 13px;
+  color: rgb(2,5, 59);
+  font-size: 20px;
+}
+.title{
+  font-size: 27px;
+}
+.raw{
+  display: flex ;
+  flex-wrap: wrap ;
+}
+.center{
+  color: rgb(2,5, 128);
+  font-size: 30px;
+}
+@media screen and (max-width:700px){
+.cont{
+  width: 90%;
+}
+}

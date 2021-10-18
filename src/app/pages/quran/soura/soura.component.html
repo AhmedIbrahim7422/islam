@@ -1,0 +1,38 @@
+
+<div *ngFor="let item of soura">
+  <div *ngIf="item.id ==y">
+      <div class="name">
+        <h3>
+          {{item.name}}
+        </h3> 
+      </div>
+    <div class="audio">
+      <audio controls id="player">
+        <source src="https://server8.mp3quran.net/afs/{{b}}.mp3" type="audio/mp3">
+      </audio>
+    </div>
+    <div class="souer main">
+     <img class="bsm" src={{bsm}}>
+      <div class="s">
+        {{item.soura}}
+      </div>
+    </div>
+    <div class="flex">
+      <div *ngIf="item.id < 114" class="next main">
+       <h2>
+          <a href="http://localhost:4200/landing/%D8%B3%D9%88%D8%B1%D8%A9?id={{item.id+1}}">
+            السورة التالية
+          </a>
+        </h2>
+      </div>
+      <div *ngIf="item.id >1" class="previous main">
+      <h2>
+         <a href="http://localhost:4200/landing/%D8%B3%D9%88%D8%B1%D8%A9?id={{item.id-1}}">
+           السورة السابقة
+         </a>
+       </h2>
+      </div>
+    </div>
+  </div>
+</div>
+
