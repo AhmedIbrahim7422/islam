@@ -1,9 +1,17 @@
+<!--start search-->
+<div class="search">
+  <input class="form-control" type="text" placeholder="اكتب اسم السورة" [(ngModel)]="p">
+</div>
+<!--end search-->
+
+<!--start اسماء السور-->
 <div class="s">
-  <div class="main" *ngFor="let item of soura">
+  <div class="main" *ngFor="let item of soura | filter : p">
     <p class="title">
-      <a [routerLink]="['/landing/سورة/']"[queryParams]="{id: item.id}">
+      <a [routerLink]="['/landing/سورة/']" [queryParams]="{id: item.id}">
         {{item.name}}
       </a>
     </p>
   </div>
 </div>
+<!--end اسماء السور-->

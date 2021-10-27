@@ -1,5 +1,16 @@
 @import url(//db.onlinewebfonts.com/c/2c1ce06a505728976c1d2993407312b5?family=KFGQPC+Uthmanic+Script+HAFS);
-
+.search{
+  width: 300px;
+  margin: 40px auto 0 auto;
+  box-shadow: 0 .5rem 1rem rgba(59, 54, 123, 0.50)!important;
+  border-radius: 50px;
+  height: 50px;
+}
+.search > input{
+  border: unset;
+  height: 50px;
+  border-radius: 50px;
+}
 .s{
   font-family: "KFGQPC Uthmanic Script HAFS";
   display: flex ;

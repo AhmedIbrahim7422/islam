@@ -10,6 +10,7 @@ export class QuranComponent implements OnInit {
 
   constructor(private s: SouraService) { }
 soura = this.s.s;
+p =""
 
   ngOnInit(): void {
   }

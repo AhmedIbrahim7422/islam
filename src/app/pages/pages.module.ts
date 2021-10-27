@@ -9,13 +9,16 @@ import { WarsComponent } from './wars/wars.component';
 import { FriendsComponent } from './friends/friends.component';
 import { PersonComponent } from './person/person.component';
 import { SouraComponent } from './quran/soura/soura.component';
+import { FilterPipe } from './quran/filter.pipe';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
-  declarations: [ HomeComponent, QuranComponent, HadithsComponent,  WarsComponent, FriendsComponent, PersonComponent, SouraComponent],
+  declarations: [ HomeComponent, QuranComponent, HadithsComponent,  WarsComponent, FriendsComponent, PersonComponent, SouraComponent, FilterPipe],
   imports: [
     CommonModule,
-    PagesRoutingModule
+    PagesRoutingModule,
+    FormsModule
   ]
 })
 export class PagesModule { }
